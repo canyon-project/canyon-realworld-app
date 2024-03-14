@@ -39,7 +39,6 @@ module.exports = {
   // 本地开发服务
   devServer: {
     host: "0.0.0.0",//允许ip访问
-    inline: true, //实时刷新
     hot: true, // 模块热替换机制
     port: 9050,
     open: false, // 打开浏览器，默认false

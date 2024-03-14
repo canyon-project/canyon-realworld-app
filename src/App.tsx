@@ -1,12 +1,22 @@
-import { useEffect } from 'react'
-
+import {useEffect, useState} from 'react'
+import { codeToHtml } from 'shiki';
 const App = (props: any) => {
+  const code = `const a=1`
+  const [html, setHtml] = useState('');
   useEffect(()=>{
-    console.log('123')
+    codeToHtml(code, {
+      theme: 'tokyo-night',
+      lang: 'js'
+    }).then((h) => {
+      setHtml(h);
+    });
   },)
   return (
     <div>
-      fghfghf
+      <div
+        style={{flexGrow: 1, overflow: 'auto'}}
+        dangerouslySetInnerHTML={{__html: html}}
+      />
     </div>
   )
 }
