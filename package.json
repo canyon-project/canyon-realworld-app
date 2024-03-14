@@ -14,10 +14,10 @@
   "author": "zhangtao25",
   "license": "MIT",
   "dependencies": {
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "react-router-config": "^5.1.1",
-    "react-router-dom": "^5.2.0"
+    "react-router-dom": "^5.3.4"
   },
   "devDependencies": {
     "@babel/core": "^7.24.0",
@@ -30,19 +30,19 @@
     "babel-plugin-canyon": "^1.8.30",
     "babel-plugin-istanbul": "^6.1.1",
     "clean-webpack-plugin": "^3.0.0",
-    "compression-webpack-plugin": "^7.1.1",
+    "compression-webpack-plugin": "^7.1.2",
     "copy-webpack-plugin": "^7.0.0",
     "cross-env": "^7.0.3",
-    "css-loader": "^5.0.1",
+    "css-loader": "^5.2.7",
     "file-loader": "^6.2.0",
-    "html-webpack-plugin": "^4.5.0",
-    "mini-css-extract-plugin": "^1.3.3",
+    "html-webpack-plugin": "^4.5.2",
+    "mini-css-extract-plugin": "^1.6.2",
     "style-loader": "^2.0.0",
-    "typescript": "^4.1.3",
-    "webpack": "^5.11.1",
-    "webpack-cli": "^4.3.0",
-    "webpack-dev-server": "^3.11.1",
-    "webpack-merge": "^5.7.3",
-    "webpackbar": "^5.0.0-3"
+    "typescript": "^4.9.5",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^3.11.3",
+    "webpack-merge": "^5.10.0",
+    "webpackbar": "^5.0.2"
   }
 }
